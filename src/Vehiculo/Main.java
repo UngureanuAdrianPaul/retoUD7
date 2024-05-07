@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Taxi taxi1 = new Taxi("Ford", "Escort", "1234567890qwyrtyu", 4, Asiento.CALEFFACCION, 25.5, 50.5);
+        Taxi taxi1 = new Taxi("Ford", "Escort", "1234567890qwyrtyu", 4, Asiento.CALEFFACCION, 25.5, 10.0);
         Taxi taxi2 = new Taxi("Renault", "Megane", "1234567890qwertuy", 5, Asiento.RECLINABLE, 20, 30.5);
 
         Particular particula1 = new Particular("Lancia", "Delta", "1234567890poiuytr", 4, Asiento.CUERO, "Maradona", true);
@@ -46,8 +46,6 @@ public class Main {
         System.out.println("**Informacion actualizada para el segundo particular**");
         particula2.setPropietario("Norris");
         System.out.println(particula2.toString());
-
-        
     
     
     
